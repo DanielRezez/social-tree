@@ -1,0 +1,42 @@
+/*reset geral do CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body * {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+#container {
+    border: 1px solid black;
+    width: 326px;
+    margin: 200px auto;
+}
+
+#profile {
+    border: 1px solid black;
+}
+
+#profile img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#links {
+    border: 1px solid black;
+}
+
+#social-links {
+    border: 1px solid black;
+}
