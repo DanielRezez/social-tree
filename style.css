@@ -77,6 +77,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 29px;
     width: 236px;
 }
+
+#social-links-list a {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 50%;
+    transition: background 0.2s;
+} 
+
+#social-links-list a:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+    
+}
+
