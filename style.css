@@ -90,6 +90,14 @@ body {
 
 #social-links-list a:hover {
     background-color: rgba(128, 128, 128, 0.1);
-    
 }
+
+@media screen and (max-width: 768px){
+    #container {
+        margin: 120px auto 150px auto;
+    }
+}
+
+
+
 
